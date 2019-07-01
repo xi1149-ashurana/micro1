@@ -17,6 +17,6 @@ spec:
           image: ashurana31/micro2:micro2
           env:
             - name: EXPECTED_URI
-              value: http://192.168.99.100:32554
+              value: http://192.168.99.100:30443
           ports:
             - containerPort: 8080
