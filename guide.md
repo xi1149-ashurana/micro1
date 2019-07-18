@@ -7,7 +7,9 @@ Follow these steps to run CI/CD on *xebia-qa environment*
 CI on\
 Environment-> xebia-qa\
 Branch-> Xebia-QA
-
+```
+Sync job from github to gitlab is not required since we are using github for xebia-qa
+```
 - Step 1. Go to 192.168.7.41:8080
 - Step 2. Open the folder named release-pipeline -> xebia_qa -> yes-genie-app
 - Step 3. For running CI open yes-genie-app-sprint-ci
@@ -16,7 +18,7 @@ Branch-> Xebia-QA
 
 Check your build steps
 1. Click on the build number under build history on the left
-2. click on console output
+2. Click on console output
  OR
 Directly click on the blue button on the left of build number 
 ```
