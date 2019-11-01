@@ -1,3 +1,5 @@
+- name: PR Lint Action
+  uses: vijaykramesh/pr-lint-action@v1.0
 projects: ['GEN']
 check_title: true
 check_branch: true
